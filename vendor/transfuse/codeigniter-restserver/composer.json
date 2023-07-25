@@ -1,0 +1,26 @@
+{
+    "name": "transfuse/codeigniter-restserver",
+    "type": "library",
+    "description": "A fully RESTful server implementation for CodeIgniter 2 and 3 using one library, one config file and one controller.",
+	"keywords": ["codeigniter","restserver"],
+    "homepage": "https://github.com/transfuse/codeigniter-restserver",
+    "authors": [
+	    {
+            "name": "Transfuse Inc.",
+			"email": "hello@transfuseinc.com"
+			}
+        
+    ],
+    "require": {
+        "php": ">=5.4.0",
+		"codeigniter/framework": "^3.0.4"
+    },
+    
+     "autoload": {
+        "classmap": [
+            "libraries/Format.php",
+            "libraries/REST_Controller.php"
+        ]
+    },
+    "license": "MIT"
+}

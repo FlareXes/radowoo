@@ -1,0 +1,5 @@
+{
+    "require": {
+        "transfuse/codeigniter-restserver": "^1.0"
+    }
+}

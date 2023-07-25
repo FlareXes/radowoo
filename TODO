@@ -1,0 +1,5 @@
+Never Use -f
+Don't Assume `pull` Can Fix Everything
+Go With Branch
+Always Check `.git` Directory
+Always Use `.gitignore`
